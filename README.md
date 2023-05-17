@@ -2,6 +2,8 @@
 
 **Memory Game is a single player game where the player has to turn over a pair of matching cards from the deck of cards.**
 
+**I have built Memory Game using JavaScript,HTML and CSS**
+
 **Features**
 1)	The number of cards on screen changes with difficulty.
 
