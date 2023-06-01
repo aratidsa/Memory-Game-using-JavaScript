@@ -28,6 +28,9 @@
 
 8. The modal also asks if the player wants to continue playing or exit the game.
 
+**Demo of the Game**
+[screen-capture (2).webm](https://github.com/aratidsa/Memory-Game-using-JavaScript/assets/128802362/4ee5766e-78e8-4f66-ad77-bff8d65029ff)
+
 **Screenshots of the Memory Game**
 ![Screenshot 2023-06-01 175641](https://github.com/aratidsa/Memory-Game-using-JavaScript/assets/128802362/4adc7e2d-fbad-4904-b4ed-e2dbb71ebb28)
 ![Screenshot 2023-06-01 175712](https://github.com/aratidsa/Memory-Game-using-JavaScript/assets/128802362/70cd5326-5b98-478b-a635-954c15d18d37)
