@@ -1,0 +1,166 @@
+body
+{
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family:Lobster,cursive ;
+    font-size: 10px;
+    background: rgb(222, 193, 249);
+    color:rgb(73, 27, 115);
+
+}
+
+/* ---------------------- Heading ---------------------- */
+.heading
+{
+    font-size: 30px;
+    text-shadow: 1px 1px white;
+}
+
+/* ---------------------- Score,Cards Left,Rating,New Game Button & Timer Grid ---------------------- */
+.container
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color:rgb(196, 137, 251) ;
+    color:rgb(35, 5, 63);
+}
+
+/* ---------------------- New Game Button ---------------------- */
+.new-game,.play-again,.exit-game
+{
+    font-family:Lobster,cursive ;
+    width:130px;
+    height:35px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top:10px;
+    background-color: rgb(35, 5, 63);
+    color:white;
+    border:1px solid rgb(35, 5, 63);
+    cursor: pointer;
+    
+}
+
+.new-game:hover
+{
+    background-color: rgb(204, 159, 247);
+    border:1px solid rgb(204, 159, 247);
+    color:black;
+    box-shadow: 2px 2px 2px 2px rgb(74, 73, 73);
+   
+}
+
+/* ----------------------Rating Styling---------------------- */
+#rating-poor,#rating-average,#rating-perfect,#modal-rating-poor,#modal-rating-average,#modal-rating-perfect
+{
+    color:white;
+}
+
+/* ----------------------Selection Heading ---------------------- */
+.heading1
+{
+    color:black;
+}
+
+#cards-left, #score, #timer, #moves
+{
+    color:rgb(160, 23, 23);
+}
+
+
+/* ----------------------Selection Button Grid ---------------------- */
+.container1
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#grid3x2, #grid4x3, #grid5x4
+{
+    background-color: rgb(73, 27, 115);
+    color:white;
+    border:1px solid rgb(73, 27, 115);
+    margin-left: 20px;
+    font-family:Lobster,cursive ;
+    width:130px;
+    height:35px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#grid3x2:hover, #grid4x3:hover, #grid5x4:hover
+{
+    background-color:rgb(204, 159, 247);
+    border:1px solid rgb(204, 159, 247);
+    color:black;
+    box-shadow: 2px 2px 2px 2px rgb(73, 27, 115);
+}
+
+/* ----------------------Game Board---------------------- */
+.board
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* ----------------------Image Sizing ---------------------- */
+img
+{
+    width:150px;
+    height:150px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left:20px;
+}
+
+/* ----------------------Modal 1 ---------------------- */
+.modal
+{
+    width:400px;
+    height:290px;
+    background-color: rgb(214, 146, 248);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(35, 5, 63);
+    padding:10px;
+    margin-left:580px;
+    display: none; 
+    margin-top:30px;  
+}
+
+/* ----------------------Modal 1 Buttons---------------------- */
+.play-again:hover, .exit-game:hover
+{
+    background-color:rgb(204, 159, 247);
+    border:1px solid rgb(204, 159, 247);
+    color:black;
+    box-shadow: 2px 2px 2px 2px rgb(73, 27, 115);
+}
+
+/* ----------------------Modal 2 ---------------------- */
+.modal1
+{
+    width:400px;
+    height:270px;
+    background-color: rgb(214, 146, 248);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(35, 5, 63);
+    padding:10px;
+    margin-left:580px;
+    display: none; 
+    margin-top:30px;
+}
+
+#modal-score, #modal-timer, #modal-moves, #moves-allowed, #modal1-moves
+{
+    color:rgb(160, 23, 23);
+}
+
